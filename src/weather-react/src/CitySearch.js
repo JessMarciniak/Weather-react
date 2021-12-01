@@ -43,7 +43,7 @@ export default function CitySearch() {
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Description: {weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
-          <li>Wind: {weather.wind}km/h</li>
+          <li>Wind: {weather.wind} KMH</li>
           <li>
             <img src={weather.icon} alt={weather.description} />
           </li>
